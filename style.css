@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 250px auto;
+
+}
+.outerlayer {
+    border: 5px solid white;
+    display: inline-block;
+    padding: 70px 35px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.min, .sec, .msec {
+    color: skyblue;
+
+    width: 45px;
+    display: inline-block;
+    font-size: 40px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.min {
+    font-size: 60px;
+}
+
+.start {
+    background-color: skyblue;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    
+
+}
+
+.pause{
+    background-color: skyblue;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    outline: none;
+
+}
+
+.fa-play {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.fa-pause {
+    padding: 5px;
+    margin-right:5px;
+    margin-left: 5px;
+}
+
+.reset{
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 150px auto;
+    }
+  }
